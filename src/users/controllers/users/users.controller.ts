@@ -19,5 +19,6 @@ export class UsersController {
  getUserById(@Param('id') id: string){
    console.log(id);
    return { id }
+
  }
 }
